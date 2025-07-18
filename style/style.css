@@ -8,3 +8,60 @@
   font-weight: 400;
   font-style: normal;
 }
+/*shard style */
+.display-flex{
+    display: flex;
+}
+.text-gray{
+    color: #424242;
+}
+.bg-light{
+    background-color: rgba(255, 140, 44, .1);
+}
+
+
+
+
+/*header style*/
+
+
+
+/* nav bar related style*/
+
+.nav-bar{
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+  
+}
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    margin-left: 30px;
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: 500;
+    
+    
+}
+.nav-bar,.banner{
+    max-width: 1440pxx;
+    margin: 0 auto;
+}
+.banner{
+    text-align:"top-center";
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: bold;
+    max-width: 8;
+}
+.banner p{
+
+}
