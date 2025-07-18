@@ -113,6 +113,19 @@ section{
     text-align: start;
     margin-left: 1.5rem;
 }
+.feture-title{
+    font-size: 2rem;
+}
+#Quick-list{
+    font-weight: 500;
+    color: #727272;
+}
+#Features{
+    color: #FF900E;
+}
+.feture-decription{
+    color: #727272;
+}
 main{
     max-width: 1440px;
     margin: 0 auto;
@@ -120,8 +133,10 @@ main{
 
 /*responsive media */
 @media  screen and (max-width:576px) {
-    .nav-bar,.nav-link{
+    .nav-bar,.nav-link .teams{
         flex-direction: column;
     }
-    
+    .team-img-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
