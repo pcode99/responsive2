@@ -20,6 +20,16 @@
 }
 
 
+.button-primary{
+    background-color: chocolate;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    border: none;
+}
+
+
 
 
 /*header style*/
@@ -55,13 +65,34 @@
     margin: 0 auto;
 }
 .banner{
-    text-align:"top-center";
+
+   text-align: center; 
 }
 .banner h1{
-    font-size: 64px;
-    font-weight: bold;
-    max-width: 8;
+    font-size: 4rem;
+    font-weight: 700;
+    max-width: 841px;
+
 }
 .banner p{
 
+}
+.banner-content{
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+
+/*responsive media */
+@media  screen and (max-width:576px) {
+    .nav-bar,.nav-link{
+        flex-direction: column;
+    }
+    
 }
