@@ -29,6 +29,10 @@
     border: none;
 }
 
+section{
+    
+}
+
 
 
 
@@ -88,7 +92,31 @@
     width: 100%;
 }
 
+/*team and fetures */
+.teams{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 130px;
+   
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
 
+/*main design */
+
+.our-fetures{
+    text-align: start;
+    margin-left: 1.5rem;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /*responsive media */
 @media  screen and (max-width:576px) {
